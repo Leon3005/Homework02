@@ -7,6 +7,18 @@ body {
   padding: 0px;
 }
 
+.mainpage {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../images/backgroundcolours.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 header {
 }
 
@@ -31,4 +43,8 @@ li {
   display: inline-block;
   padding: 20px 40px;
   font-size: 20px;
+}
+
+main {
+  position: absolute;
 }
