@@ -23,26 +23,36 @@ header {
 }
 
 nav {
-  background-color: #34312d;
   height: 100px;
 }
 
 h1 {
+  background-color: white;
+  border-radius: 50px;
   color: #7e7f83;
   position: absolute;
   padding: 12px;
-  float: left;
-  margin-left: 1%;
+  margin-left: 10%;
 }
 
 ul {
-  float: right;
+  position: absolute;
+  right: 10%;
+  padding: 12px;
 }
 
 li {
+  background-color: white;
+  border-radius: 50px;
   display: inline-block;
-  padding: 20px 40px;
+  padding: 12px;
+  text-decoration: none;
   font-size: 20px;
+  /* position: absolute; */
+}
+
+.button {
+  text-decoration: none;
 }
 
 main {
