@@ -7,6 +7,10 @@ body {
   padding: 0px;
 }
 
+header {
+  
+}
+
 .mainpage {
   background-image: linear-gradient(
       to right,
@@ -26,8 +30,6 @@ body {
   height: 100vh;
 }
 
-header {
-}
 
 nav {
   height: 100px;
