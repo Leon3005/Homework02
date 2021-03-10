@@ -8,14 +8,21 @@ body {
 }
 
 .mainpage {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.9)
     ),
     url(../images/backgroundcolours.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background: rgb(27, 38, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 38, 59, 1) 0%,
+    rgba(65, 90, 119, 1) 71%,
+    rgba(65, 90, 119, 1) 77%
+  );
   height: 100vh;
 }
 
@@ -24,37 +31,39 @@ header {
 
 nav {
   height: 100px;
+  display: flex;
 }
 
 h1 {
-  background-color: white;
+  background-color: #0d1b2a;
   border-radius: 50px;
-  color: #7e7f83;
+  color: white;
   position: absolute;
   padding: 12px;
-  margin-left: 10%;
+  margin-left: 7%;
+  position: fixed;
 }
 
 ul {
-  position: absolute;
+  position: fixed;
   right: 10%;
   padding: 12px;
 }
 
 li {
-  background-color: white;
+  background-color: #0d1b2a;
   border-radius: 50px;
   display: inline-block;
   padding: 12px;
   text-decoration: none;
   font-size: 20px;
-  /* position: absolute; */
 }
 
 .button {
   text-decoration: none;
+  color: white;
 }
 
 main {
-  position: absolute;
+  /* position: absolute; */
 }
