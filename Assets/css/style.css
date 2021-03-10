@@ -24,8 +24,6 @@ body {
     rgba(65, 90, 119, 1) 77%
   ); */
   height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 header {
@@ -33,6 +31,10 @@ header {
 
 nav {
   height: 100px;
+  display: block; */
+  display: flex;
+  flex-wrap: wrap; 
+  border: 1px solid black;
 }
 
 h1 {
@@ -44,11 +46,10 @@ h1 {
   margin: 35px;
   margin-left: 7%;
   margin-right: 100px;
-  position: fixed;
 }
 
 ul {
-  position: fixed;
+  position: absolute;
   right: 10%;
   padding: 12px;
 }
