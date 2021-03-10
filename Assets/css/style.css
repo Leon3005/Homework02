@@ -8,21 +8,21 @@ body {
 }
 
 .mainpage {
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.9)
     ),
     url(../images/backgroundcolours.jpg);
   background-size: cover;
-  background-position: center; */
-  background: rgb(27, 38, 59);
+  background-position: center;
+  /* background: rgb(27, 38, 59);
   background: linear-gradient(
     90deg,
     rgba(27, 38, 59, 1) 0%,
     rgba(65, 90, 119, 1) 71%,
     rgba(65, 90, 119, 1) 77%
-  );
+  ); */
   height: 100vh;
 }
 
