@@ -1,5 +1,6 @@
 * {
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 header {
-  
+
 }
 
 .mainpage {
@@ -36,7 +37,7 @@ nav {
   display: block; */
   display: flex;
   flex-wrap: wrap; 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 h1 {
@@ -62,12 +63,10 @@ li {
   display: inline-block;
   padding: 12px;
   margin: 7px;
-  text-decoration: none;
   font-size: 20px;
 }
 
 .button {
-  text-decoration: none;
   color: white;
 }
 
@@ -84,11 +83,12 @@ main {
 
 .MainText {
   position: absolute;
+  display: flex;
   flex-wrap: wrap;
   font-size: 60px;
-  border: 1px solid white;
-  top: 1%;
-  left: 28%;
+  /* border: 1px solid white; */
+  top: 30%;
+  left: 30%;
   justify-content: center;
   text-align: center;
 }
@@ -98,6 +98,6 @@ main {
   position: absolute;
   justify-content: center;
   text-align: center;
-  top: 50%;
-  left: 22%;
+  top: 30%;
+  left: 25%;
 }
