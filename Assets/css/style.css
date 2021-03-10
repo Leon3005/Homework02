@@ -70,20 +70,32 @@ li {
 }
 
 main {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center; */
+}
+
+.MainText {
+  position: absolute;
+  flex-wrap: wrap;
+  font-size: 60px;
+  border: 1px solid white;
+  top: 1%;
+  left: 28%;
   justify-content: center;
+  text-align: center;
 }
 
-main h2 {
+.ProjectsContainer {
   flex-wrap: wrap;
-}
-
-main section {
-  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 22%;
 }
