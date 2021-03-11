@@ -53,7 +53,7 @@ h1 {
 
 ul {
   position: absolute;
-  right: 10%;
+  right: 8%;
   padding: 12px;
 }
 
@@ -89,10 +89,18 @@ main {
   flex-wrap: wrap;
   font-size: 4.5rem;
   /* border: 1px solid white; */
-  top: 15%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-content: center;
   text-align: center;
+}
+
+.HeadshotImage {
+  height: 230px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 7px 7px rgb(0, 0, 0, 0.6);
 }
 
 .ProjectsContainer {
