@@ -36,7 +36,7 @@ nav {
   height: 100px;
   display: block; */
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   /* border: 1px solid black; */
 }
 
@@ -58,6 +58,7 @@ ul {
 }
 
 li {
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #0d1b2a;
   border-radius: 50px;
   display: inline-block;
