@@ -82,13 +82,15 @@ main {
 }
 
 .MainText {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
   position: absolute;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
-  font-size: 60px;
+  font-size: 4.5rem;
   /* border: 1px solid white; */
-  top: 30%;
-  left: 30%;
+  top: 15%;
+  left: 25%;
   justify-content: center;
   text-align: center;
 }
