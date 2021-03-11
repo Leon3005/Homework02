@@ -123,7 +123,6 @@ main {
   text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
 }
 
-/* Tablets - header changes color */
 @media screen and (max-width: 992px) {
   nav {
     display: flex;
@@ -135,7 +134,6 @@ main {
   }
 }
 
-/* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
   nav {
     display: flex;
@@ -143,7 +141,6 @@ main {
   }
 }
 
-/* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
   li {
     font-size: 15px;
