@@ -9,7 +9,6 @@ body {
 }
 
 header {
-
 }
 
 .mainpage {
@@ -31,13 +30,11 @@ header {
   height: 100vh;
 }
 
-
 nav {
   height: 100px;
-  display: block; */
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
@@ -77,15 +74,14 @@ li:hover {
 }
 
 .button {
-  color: white; 
+  color: white;
 }
 
 main {
-
 }
 
 .MainText {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
   position: absolute;
   display: inline-block;
@@ -121,9 +117,72 @@ main {
 }
 
 #ProjectsLink {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
   font-size: 4.5rem;
   text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
 }
 
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MainText {
+    font-size: 3rem;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  li {
+    font-size: 15px;
+  }
+
+  ul {
+    display: flex;
+    top: 10%;
+  }
+
+  h1 {
+    left: 25%;
+  }
+
+  .MainText {
+    font-size: 1.5rem;
+    top: 55%;
+  }
+
+  .HeadshotImage {
+    height: 190px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 1.2rem;
+    left: 25%;
+  }
+}
+
+@media screen and (max-height: 667px) {
+  h1 {
+    font-size: 1.2rem;
+    left: 25%;
+  }
+
+  .MainText {
+    top: 60%;
+  }
+}
