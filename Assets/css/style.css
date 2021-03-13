@@ -75,7 +75,8 @@ main {
 }
 
 .MainText,
-.AboutMecontainer {
+.AboutMecontainer,
+.ContactContainer {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
   position: absolute;
