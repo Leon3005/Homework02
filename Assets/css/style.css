@@ -6,6 +6,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: black;
 }
 
 header {
@@ -13,20 +14,13 @@ header {
 
 .mainpage {
   background-image: linear-gradient(
-      to right,
+      to bottom,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.9)
+      rgba(0, 0, 0, 1)
     ),
     url(../images/backgroundcolours.jpg);
   background-size: cover;
   background-position: center;
-  /* background: rgb(27, 38, 59);
-  background: linear-gradient(
-    90deg,
-    rgba(27, 38, 59, 1) 0%,
-    rgba(65, 90, 119, 1) 71%,
-    rgba(65, 90, 119, 1) 77%
-  ); */
   height: 100vh;
 }
 
@@ -110,10 +104,9 @@ main {
   position: absolute;
   justify-content: center;
   text-align: center;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 100px;
 }
 
 #ProjectsLink {
@@ -121,6 +114,16 @@ main {
   color: white;
   font-size: 4.5rem;
   text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+.ProjectsContainer img {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.projects {
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 992px) {
