@@ -160,12 +160,19 @@ main {
   .ProjectsContainer {
     top: 70%;
   }
+
+  .AboutMe {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
+  }
+  .AboutMe {
+    font-size: 3rem;
   }
 }
 
@@ -192,12 +199,18 @@ main {
     height: 190px;
     width: 150px;
   }
+  .AboutMe {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 380px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
+  }
+  .AboutMe {
+    font-size: 3rem;
   }
 }
 
@@ -209,5 +222,8 @@ main {
 
   .MainText {
     top: 60%;
+  }
+  .AboutMe {
+    font-size: 3rem;
   }
 }
