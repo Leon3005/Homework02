@@ -104,7 +104,7 @@ main {
   position: absolute;
   justify-content: center;
   text-align: center;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -122,8 +122,18 @@ main {
 }
 
 .projects {
-  flex-direction: row;
-  flex-wrap: wrap;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+.MainProject,
+.SmallProject {
+  margin-bottom: 15px;
+}
+
+.SmallProject {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 992px) {
