@@ -142,6 +142,12 @@ main {
   font-size: 2.5rem;
 }
 
+.fa {
+  padding: 30px;
+  text-decoration: none;
+  color: lightblue;
+}
+
 @media screen and (max-width: 1025px) {
   .ProjectsContainer {
     top: 65%;
