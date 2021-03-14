@@ -40,4 +40,4 @@ Contact me page:
 
 ## Project Github Pages Link
 
-[GitHub](https://leon3005.github.io/Homework-1/)
+[Deployed GitHub Pages Site](https://leon3005.github.io/Personal_Portfolio/)
