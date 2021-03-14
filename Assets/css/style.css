@@ -3,15 +3,18 @@
   text-decoration: none;
 }
 
+:root {
+  --maincolour: #0d1b2a;
+  --shadow: rgb(0, 0, 0, 0.6);
+}
+
 body {
   margin: 0px;
   padding: 0px;
   background-color: black;
 }
 
-header {
-}
-
+/* Styling for index.html, .mainpage applies the background for each page */
 .mainpage {
   background-image: linear-gradient(
       to bottom,
@@ -32,7 +35,7 @@ nav {
 }
 
 h1 {
-  background-color: #0d1b2a;
+  background-color: var(--maincolour);
   border-radius: 50px;
   color: white;
   position: absolute;
@@ -44,7 +47,7 @@ h1 {
 
 h1:hover {
   transform: translateY(-3px);
-  box-shadow: 0.1rem 0.4rem 0.8rem rgb(0, 0, 0, 0.6);
+  box-shadow: 0.1rem 0.4rem 0.8rem var(--shadow);
 }
 
 ul {
@@ -54,7 +57,7 @@ ul {
 }
 
 li {
-  background-color: #0d1b2a;
+  background-color: var(--maincolour);
   border-radius: 50px;
   display: inline-block;
   padding: 12px;
@@ -64,18 +67,15 @@ li {
 
 li:hover {
   transform: translateY(-3px);
-  box-shadow: 0.1rem 0.4rem 0.8rem rgb(0, 0, 0, 0.6);
+  box-shadow: 0.1rem 0.4rem 0.8rem var(--shadow);
 }
 
 .button {
   color: white;
 }
 
-main {
-}
-
 .MainText,
-.AboutMecontainer,
+.AboutMeContainer,
 .ContactContainer {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
@@ -88,15 +88,19 @@ main {
   transform: translate(-50%, -50%);
   justify-content: center;
   text-align: center;
-  text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+  text-shadow: 5px 5px var(--shadow);
 }
 
 .HeadshotImage {
   height: 230px;
   width: 190px;
   border-radius: 50%;
-  box-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+  box-shadow: 5px 5px var(--shadow);
 }
+
+/* End of index.html styling */
+
+/* Projects page styling */
 
 .ProjectsContainer {
   display: flex;
@@ -110,22 +114,22 @@ main {
   transform: translate(-50%, -50%);
 }
 
-#ProjectsLink {
-  font-family: "Source Sans Pro", sans-serif;
-  color: white;
-  font-size: 4.5rem;
-  text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
-}
-
 .ProjectsContainer img {
   margin: 10px;
   border-radius: 20px;
 }
 
+#ProjectsLink {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 4.5rem;
+  text-shadow: 5px 5px var(--shadow);
+}
+
 .projects {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
-  text-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+  text-shadow: 5px 5px var(--shadow);
 }
 
 .MainProject,
@@ -147,6 +151,7 @@ main {
   color: lightblue;
 }
 
+/* iPad Pro */
 @media screen and (max-width: 1025px) {
   .ProjectsContainer {
     top: 65%;
