@@ -141,10 +141,14 @@ li:hover {
   font-size: 0.9rem;
 }
 
+/* End of Projects styling */
+
+/* Styling for About me page */
 .AboutMe {
   font-size: 2.5rem;
 }
 
+/* Styling for Font Awesome icons on Contact me Page */
 .fa {
   padding: 30px;
   text-decoration: none;
@@ -158,6 +162,7 @@ li:hover {
   }
 }
 
+/* Tablet media queries */
 @media screen and (max-width: 992px) {
   nav {
     display: flex;
@@ -176,7 +181,7 @@ li:hover {
     font-size: 3rem;
   }
 }
-
+/* Regular size iPad media queries */
 @media screen and (max-width: 768px) {
   nav {
     display: flex;
@@ -187,6 +192,7 @@ li:hover {
   }
 }
 
+/* iPhone/Smartphone media queries */
 @media screen and (max-width: 576px) {
   li {
     font-size: 15px;
@@ -215,6 +221,7 @@ li:hover {
   }
 }
 
+/* iPhone X media queries */
 @media screen and (max-width: 380px) {
   h1 {
     font-size: 1.2rem;
