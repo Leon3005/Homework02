@@ -132,6 +132,9 @@ li:hover {
   text-shadow: 5px 5px var(--shadow);
 }
 
+.project {
+  margin-bottom: 20px;
+}
 .MainProject,
 .SmallProject {
   margin-bottom: 15px;
