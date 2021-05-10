@@ -1,8 +1,8 @@
-# Personal Portfolio - HW02
+# Personal Portfolio
 
 ## Description
 
-This is my submission for the second week homework. It is my personal portfolio created with HTML and CSS.
+This is my personal portfolio created with HTML and CSS.
 
 The site features the below:
 
