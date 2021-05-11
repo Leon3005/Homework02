@@ -104,18 +104,15 @@ li:hover {
 
 .ProjectsContainer {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: absolute;
-  justify-content: center;
-  text-align: center;
-  top: 80%;
-  left: 50%;
+  top: 95%;
+  left: 57%;
   transform: translate(-50%, -50%);
 }
 
 .ProjectsContainer img {
-  margin: 10px;
-  border-radius: 20px;
 }
 
 #ProjectsLink {
@@ -123,28 +120,15 @@ li:hover {
   color: white;
   font-size: 4.5rem;
   text-shadow: 5px 5px var(--shadow);
+  text-align: center;
 }
 
 .projects {
-  position: relative;
-  font-family: "Source Sans Pro", sans-serif;
-  color: white;
-  text-shadow: 5px 5px var(--shadow);
-  flex-wrap: wrap;
 }
 
 .project {
-  margin-bottom: 20px;
 }
-.MainProject,
-.SmallProject {
-  margin-bottom: 15px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.SmallProject {
-  font-size: 0.9rem;
+.MainProject {
 }
 
 /* End of Projects styling */
