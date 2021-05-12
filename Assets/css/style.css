@@ -102,17 +102,21 @@ li:hover {
 
 /* Projects page styling */
 
+p {
+}
+
 .ProjectsContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: absolute;
   top: 95%;
-  left: 57%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .ProjectsContainer img {
+  border-radius: 15px;
 }
 
 #ProjectsLink {
@@ -123,12 +127,13 @@ li:hover {
   text-align: center;
 }
 
-.projects {
-}
-
 .project {
-}
-.MainProject {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-shadow: 5px 5px var(--shadow);
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 /* End of Projects styling */
@@ -154,7 +159,8 @@ li:hover {
 /* iPad Pro */
 @media screen and (max-width: 1025px) {
   .ProjectsContainer {
-    top: 65%;
+    top: 80%;
+    left: 50%;
   }
   .MainText {
     font-size: 2.5rem;
@@ -170,10 +176,6 @@ li:hover {
 
   .MainText {
     font-size: 2.5rem;
-  }
-
-  .ProjectsContainer {
-    top: 70%;
   }
 
   .AboutMe {
@@ -194,7 +196,7 @@ li:hover {
   }
 
   .ProjectsContainer {
-    top: 90%;
+    top: 95%;
   }
 }
 
@@ -225,6 +227,23 @@ li:hover {
   .AboutMe {
     font-size: 3rem;
   }
+  .ProjectsContainer {
+    top: 135%;
+  }
+  .project {
+    font-size: 1rem;
+  }
+
+  .projectImage img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  #ProjectsLink {
+    position: relative;
+    top: 8%;
+    font-size: 3rem;
+  }
 }
 
 /* iPhone X media queries */
@@ -237,18 +256,33 @@ li:hover {
     font-size: 3rem;
   }
   .ProjectsContainer {
-    top: 110%;
+    top: 120%;
   }
   #ProjectsLink {
+    position: relative;
     font-size: 2rem;
+    top: 7%;
   }
 
   .projectImage img {
-    width: 300px;
-    height: 200px;
+    width: 20rem;
+    height: 15rem;
   }
-  .MainProject {
-    font-size: 1rem;
+}
+
+@media screen and (max-width: 376px) {
+  .ProjectsContainer {
+    top: 140%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .ProjectsContainer {
+    top: 165%;
+  }
+  .projectImage img {
+    width: 15rem;
+    height: 10rem;
   }
 }
 
