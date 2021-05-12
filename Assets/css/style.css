@@ -156,10 +156,67 @@ p {
   }
 }
 
-/* iPad Pro */
-@media screen and (max-width: 1025px) {
+@media screen and (max-height: 971px) {
   .ProjectsContainer {
-    top: 80%;
+    top: 110%;
+    left: 50%;
+  }
+}
+@media screen and (max-height: 848px) {
+  .ProjectsContainer {
+    top: 120%;
+    left: 50%;
+  }
+}
+@media screen and (max-height: 772px) {
+  .ProjectsContainer {
+    top: 130%;
+    left: 50%;
+  }
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-height: 722px) {
+  .ProjectsContainer {
+    top: 140%;
+    left: 50%;
+  }
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-height: 667px) {
+  h1 {
+    font-size: 1.2rem;
+    left: 25%;
+  }
+
+  .MainText {
+    top: 60%;
+  }
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
+}
+
+/* iPad Pro */
+@media screen and (max-width: 1026px) {
+  .ProjectsContainer {
+    top: 90%;
     left: 50%;
   }
   .MainText {
@@ -224,8 +281,12 @@ p {
     height: 190px;
     width: 150px;
   }
-  .AboutMe {
+  .AboutMeContainer h3 {
     font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
   }
   .ProjectsContainer {
     top: 135%;
@@ -244,10 +305,14 @@ p {
     top: 8%;
     font-size: 3rem;
   }
+
+  .ContactContainer {
+    font-size: 2rem;
+  }
 }
 
 /* iPhone X media queries */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 379px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
@@ -268,11 +333,23 @@ p {
     width: 20rem;
     height: 15rem;
   }
+
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 376px) {
   .ProjectsContainer {
     top: 140%;
+  }
+  .AboutMeContainer {
+    position: relative;
+    top: 40%;
   }
 }
 
@@ -284,18 +361,20 @@ p {
     width: 15rem;
     height: 10rem;
   }
-}
 
-@media screen and (max-height: 667px) {
-  h1 {
-    font-size: 1.2rem;
-    left: 25%;
+  .AboutMeContainer {
+    position: relative;
+    top: 40%;
   }
 
-  .MainText {
-    top: 60%;
-  }
-  .AboutMe {
+  .AboutMeContainer h3 {
     font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1rem;
+  }
+  .ContactContainer {
+    font-size: 1rem;
   }
 }
