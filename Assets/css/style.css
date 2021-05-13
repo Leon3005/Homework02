@@ -214,7 +214,7 @@ p {
 }
 
 /* iPad Pro */
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1024px) {
   .ProjectsContainer {
     top: 90%;
     left: 50%;
@@ -225,7 +225,7 @@ p {
 }
 
 /* Tablet media queries */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ p {
 }
 
 /* iPhone/Smartphone media queries */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   li {
     font-size: 15px;
   }
@@ -312,7 +312,7 @@ p {
 }
 
 /* iPhone X media queries */
-@media screen and (max-width: 381px) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
@@ -343,7 +343,7 @@ p {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
   .ProjectsContainer {
     top: 140%;
   }
