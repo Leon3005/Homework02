@@ -321,7 +321,7 @@ p {
 }
 
 /* iPhone X media queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 482px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
