@@ -328,9 +328,11 @@ p {
   }
   .AboutMeContainer {
     font-size: 3rem;
+    position: relative;
+    top: 70%;
   }
   .ProjectsContainer {
-    top: 130%;
+    top: 140%;
   }
   #ProjectsLink {
     position: relative;
@@ -353,16 +355,6 @@ p {
 
   .MainText {
     top: 60%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .ProjectsContainer {
-    top: 140%;
-  }
-  .AboutMeContainer {
-    position: relative;
-    top: 50%;
   }
 }
 
