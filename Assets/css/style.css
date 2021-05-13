@@ -390,22 +390,139 @@ p {
 
 /*XL Breakpoint*/
 @media screen and (max-width: 1200px) and (min-width: 993px) {
+  .ProjectsContainer {
+    top: 80%;
+    left: 50%;
+  }
+  .MainText {
+    font-size: 2.5rem;
+  }
 }
 
 /*Large Breakpoint*/
 @media screen and (max-width: 992px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MainText {
+    font-size: 2.5rem;
+  }
+
+  .AboutMe {
+    font-size: 3rem;
+  }
 }
 
 /*Medium Breakpoint*/
 @media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutMe {
+    font-size: 2.5rem;
+  }
+  .AboutMeContainer {
+    top: 50%;
+  }
+
+  .ProjectsContainer {
+    top: 110%;
+  }
 }
 
 /*Small Breakpoint*/
 @media screen and (max-width: 576px) {
+  li {
+    font-size: 15px;
+  }
+
+  ul {
+    display: flex;
+    top: 10%;
+  }
+
+  h1 {
+    left: 25%;
+  }
+
+  .MainText {
+    font-size: 1.5rem;
+    top: 55%;
+  }
+
+  .HeadshotImage {
+    height: 190px;
+    width: 150px;
+  }
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
+  .ProjectsContainer {
+    top: 135%;
+  }
+  .project {
+    font-size: 1rem;
+  }
+
+  .projectImage img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  #ProjectsLink {
+    position: relative;
+    top: 8%;
+    font-size: 3rem;
+  }
+
+  .ContactContainer {
+    font-size: 2rem;
+  }
 }
 
 /*510px Breakpoint*/
 @media screen and (max-width: 510px) {
+  h1 {
+    font-size: 1.2rem;
+    left: 25%;
+  }
+  .AboutMeContainer {
+    font-size: 3rem;
+    position: relative;
+    top: 40%;
+  }
+  .ProjectsContainer {
+    top: 140%;
+  }
+  #ProjectsLink {
+    position: relative;
+    font-size: 2rem;
+    top: 7%;
+  }
+
+  .projectImage img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1.5rem;
+  }
+
+  .MainText {
+    top: 60%;
+  }
 }
 
 /*500px Breakpoint*/
@@ -418,4 +535,30 @@ p {
 
 /*Iphone 5/SE*/
 @media screen and (max-width: 320px) {
+  .ProjectsContainer {
+    top: 165%;
+  }
+  .projectImage img {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .AboutMeContainer {
+    position: relative;
+    top: 40%;
+  }
+
+  .AboutMeContainer h3 {
+    font-size: 3rem;
+  }
+
+  .AboutMe {
+    font-size: 1rem;
+  }
+  .ContactContainer {
+    font-size: 1rem;
+  }
+  .MainText {
+    top: 70%;
+  }
 }
