@@ -150,7 +150,7 @@ p {
   color: lightblue;
 }
 
-@media screen and (max-height: 950px) {
+/* @media screen and (max-height: 950px) {
   .MainText {
     font-size: 2.5rem;
   }
@@ -220,10 +220,10 @@ p {
   .ProjectsContainer {
     top: 170%;
   }
-}
+} */
 
 /* iPad Pro */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .ProjectsContainer {
     top: 120%;
     left: 50%;
@@ -231,10 +231,10 @@ p {
   .MainText {
     font-size: 2.5rem;
   }
-}
+} */
 
 /* Tablet media queries */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -247,9 +247,9 @@ p {
   .AboutMe {
     font-size: 3rem;
   }
-}
+} */
 /* Regular size iPad media queries */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -264,10 +264,10 @@ p {
   .ProjectsContainer {
     top: 120%;
   }
-}
+} */
 
 /* iPhone/Smartphone media queries */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   li {
     font-size: 15px;
   }
@@ -318,10 +318,10 @@ p {
   .ContactContainer {
     font-size: 2rem;
   }
-}
+} */
 
 /* iPhone X media queries */
-@media screen and (max-width: 482px) {
+/* @media screen and (max-width: 482px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
@@ -382,4 +382,40 @@ p {
   .ContactContainer {
     font-size: 1rem;
   }
+} */
+
+/*Devices over 1200px*/
+@media screen and (min-width: 1201px) {
+}
+
+/*XL Breakpoint*/
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+}
+
+/*Large Breakpoint*/
+@media screen and (max-width: 992px) {
+}
+
+/*Medium Breakpoint*/
+@media screen and (max-width: 768px) {
+}
+
+/*Small Breakpoint*/
+@media screen and (max-width: 576px) {
+}
+
+/*510px Breakpoint*/
+@media screen and (max-width: 510px) {
+}
+
+/*500px Breakpoint*/
+@media screen and (max-width: 500px) {
+}
+
+/*IPhone 6/7/8Plus*/
+@media screen and (max-width: 414px) {
+}
+
+/*Iphone 5/SE*/
+@media screen and (max-width: 320px) {
 }
