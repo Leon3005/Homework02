@@ -159,19 +159,16 @@ p {
 @media screen and (max-height: 971px) {
   .ProjectsContainer {
     top: 110%;
-    left: 50%;
   }
 }
 @media screen and (max-height: 848px) {
   .ProjectsContainer {
     top: 120%;
-    left: 50%;
   }
 }
 @media screen and (max-height: 772px) {
   .ProjectsContainer {
     top: 130%;
-    left: 50%;
   }
   .AboutMeContainer h3 {
     font-size: 3rem;
@@ -184,7 +181,6 @@ p {
 @media screen and (max-height: 722px) {
   .ProjectsContainer {
     top: 140%;
-    left: 50%;
   }
   .AboutMeContainer h3 {
     font-size: 3rem;
@@ -195,12 +191,14 @@ p {
   }
 }
 
-@media screen and (max-height: 667px) {
+@media screen and (max-height: 695px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
   }
-
+  .ProjectsContainer {
+    top: 150%;
+  }
   .MainText {
     top: 60%;
   }
@@ -213,10 +211,21 @@ p {
   }
 }
 
+@media screen and (max-height: 640px) {
+  .ProjectsContainer {
+    top: 160%;
+  }
+}
+@media screen and (max-height: 605px) {
+  .ProjectsContainer {
+    top: 170%;
+  }
+}
+
 /* iPad Pro */
 @media screen and (max-width: 1024px) {
   .ProjectsContainer {
-    top: 90%;
+    top: 120%;
     left: 50%;
   }
   .MainText {
@@ -253,7 +262,7 @@ p {
   }
 
   .ProjectsContainer {
-    top: 95%;
+    top: 120%;
   }
 }
 
@@ -317,7 +326,7 @@ p {
     font-size: 1.2rem;
     left: 25%;
   }
-  .AboutMe {
+  .AboutMeContainer {
     font-size: 3rem;
   }
   .ProjectsContainer {
@@ -341,6 +350,10 @@ p {
   .AboutMe {
     font-size: 1.5rem;
   }
+
+  .MainText {
+    top: 60%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -349,7 +362,7 @@ p {
   }
   .AboutMeContainer {
     position: relative;
-    top: 40%;
+    top: 50%;
   }
 }
 
