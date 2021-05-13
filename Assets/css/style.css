@@ -501,7 +501,6 @@ p {
     left: 25%;
   }
   .AboutMeContainer {
-    font-size: 3rem;
     position: relative;
     top: 40%;
   }
@@ -519,16 +518,16 @@ p {
     height: 15rem;
   }
 
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-
   .MainText {
     top: 60%;
+  }
+
+  .AboutMeContainer {
+    font-size: 2.5rem;
+  }
+
+  .AboutMeContainer p {
+    font-size: 1.5rem;
   }
 }
 
