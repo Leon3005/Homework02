@@ -312,7 +312,7 @@ p {
 }
 
 /* iPhone X media queries */
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 381px) {
   h1 {
     font-size: 1.2rem;
     left: 25%;
@@ -321,7 +321,7 @@ p {
     font-size: 3rem;
   }
   .ProjectsContainer {
-    top: 120%;
+    top: 130%;
   }
   #ProjectsLink {
     position: relative;
