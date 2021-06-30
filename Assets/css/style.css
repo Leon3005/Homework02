@@ -102,15 +102,12 @@ li:hover {
 
 /* Projects page styling */
 
-p {
-}
-
 .ProjectsContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  top: 95%;
+  top: 130%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -150,240 +147,6 @@ p {
   color: lightblue;
 }
 
-/* @media screen and (max-height: 950px) {
-  .MainText {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-height: 971px) {
-  .ProjectsContainer {
-    top: 110%;
-  }
-}
-@media screen and (max-height: 848px) {
-  .ProjectsContainer {
-    top: 120%;
-  }
-}
-@media screen and (max-height: 772px) {
-  .ProjectsContainer {
-    top: 130%;
-  }
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-height: 722px) {
-  .ProjectsContainer {
-    top: 140%;
-  }
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-height: 695px) {
-  h1 {
-    font-size: 1.2rem;
-    left: 25%;
-  }
-  .ProjectsContainer {
-    top: 150%;
-  }
-  .MainText {
-    top: 60%;
-  }
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-height: 640px) {
-  .ProjectsContainer {
-    top: 160%;
-  }
-}
-@media screen and (max-height: 605px) {
-  .ProjectsContainer {
-    top: 170%;
-  }
-} */
-
-/* iPad Pro */
-/* @media screen and (max-width: 1024px) {
-  .ProjectsContainer {
-    top: 120%;
-    left: 50%;
-  }
-  .MainText {
-    font-size: 2.5rem;
-  }
-} */
-
-/* Tablet media queries */
-/* @media screen and (max-width: 900px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .MainText {
-    font-size: 2.5rem;
-  }
-
-  .AboutMe {
-    font-size: 3rem;
-  }
-} */
-/* Regular size iPad media queries */
-/* @media screen and (max-width: 768px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .AboutMe {
-    font-size: 2.5rem;
-  }
-  .AboutMeContainer {
-    top: 50%;
-  }
-
-  .ProjectsContainer {
-    top: 120%;
-  }
-} */
-
-/* iPhone/Smartphone media queries */
-/* @media screen and (max-width: 600px) {
-  li {
-    font-size: 15px;
-  }
-
-  ul {
-    display: flex;
-    top: 10%;
-  }
-
-  h1 {
-    left: 25%;
-  }
-
-  .MainText {
-    font-size: 1.5rem;
-    top: 55%;
-  }
-
-  .HeadshotImage {
-    height: 190px;
-    width: 150px;
-  }
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-  .ProjectsContainer {
-    top: 135%;
-  }
-  .project {
-    font-size: 1rem;
-  }
-
-  .projectImage img {
-    width: 20rem;
-    height: 15rem;
-  }
-
-  #ProjectsLink {
-    position: relative;
-    top: 8%;
-    font-size: 3rem;
-  }
-
-  .ContactContainer {
-    font-size: 2rem;
-  }
-} */
-
-/* iPhone X media queries */
-/* @media screen and (max-width: 482px) {
-  h1 {
-    font-size: 1.2rem;
-    left: 25%;
-  }
-  .AboutMeContainer {
-    font-size: 3rem;
-    position: relative;
-    top: 70%;
-  }
-  .ProjectsContainer {
-    top: 140%;
-  }
-  #ProjectsLink {
-    position: relative;
-    font-size: 2rem;
-    top: 7%;
-  }
-
-  .projectImage img {
-    width: 20rem;
-    height: 15rem;
-  }
-
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1.5rem;
-  }
-
-  .MainText {
-    top: 60%;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .ProjectsContainer {
-    top: 165%;
-  }
-  .projectImage img {
-    width: 15rem;
-    height: 10rem;
-  }
-
-  .AboutMeContainer {
-    position: relative;
-    top: 40%;
-  }
-
-  .AboutMeContainer h3 {
-    font-size: 3rem;
-  }
-
-  .AboutMe {
-    font-size: 1rem;
-  }
-  .ContactContainer {
-    font-size: 1rem;
-  }
-} */
-
 /*Devices over 1200px*/
 @media screen and (max-height: 900px) {
   .AboutMeContainer {
@@ -398,7 +161,7 @@ p {
 /*XL Breakpoint*/
 @media screen and (max-width: 1200px) and (min-width: 993px) {
   .ProjectsContainer {
-    top: 80%;
+    top: 100%;
     left: 50%;
   }
   .MainText {
@@ -436,7 +199,7 @@ p {
   }
 
   .ProjectsContainer {
-    top: 110%;
+    top: 150%;
   }
 }
 
@@ -472,7 +235,7 @@ p {
     font-size: 1.5rem;
   }
   .ProjectsContainer {
-    top: 135%;
+    top: 150%;
   }
   .project {
     font-size: 1rem;
@@ -505,7 +268,7 @@ p {
     top: 60%;
   }
   .ProjectsContainer {
-    top: 140%;
+    top: 180%;
   }
   #ProjectsLink {
     position: relative;
@@ -531,18 +294,10 @@ p {
   }
 }
 
-/*500px Breakpoint*/
-@media screen and (max-width: 500px) {
-}
-
-/*IPhone 6/7/8Plus*/
-@media screen and (max-width: 414px) {
-}
-
 /*Iphone 5/SE*/
 @media screen and (max-width: 320px) {
   .ProjectsContainer {
-    top: 165%;
+    top: 180%;
   }
   .projectImage img {
     width: 15rem;
